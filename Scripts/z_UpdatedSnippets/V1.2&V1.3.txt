@@ -1,0 +1,51 @@
+V1.2
+CHOOSE MODE:
+    void StartHighway()
+    {
+        isHighway = true;
+    }
+    void StartDodge()
+    {
+        isHighway = false;
+    }
+
+While starting the game:
+        if(!chooseMode.isHighway)
+            SpawnObstacle();
+
+
+
+V1.3
+HIGH SCORE RESET:
+
+        if(!chooseMode.isHighway)
+        {
+            SpawnObstacle();
+            if(chooseMode.wasHighway)
+            {
+                highScore = 0;
+                chooseMode.wasHighway = false;
+            }
+        }
+        else
+        {
+            if(!chooseMode.wasHighway)
+            {
+                highScore = 0;
+                chooseMode.wasHighway = true;
+            }
+        }
+
+Restart and Main menu button on pause:
+    void RestartButtonClicked()
+    {
+        PauseOrPlay();
+        gameManager.StartGame();
+    }
+
+    void LeaveButtonClicked()
+    {
+        PauseOrPlay();
+        gameManager.Menu();
+    }
+
