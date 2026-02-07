@@ -1,1 +1,1 @@
-© 2025 Direct the Plane - aatndev. All Rights Reserved.
+© 2025 Direct the Plane. All Rights Reserved.
