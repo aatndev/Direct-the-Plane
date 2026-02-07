@@ -17,7 +17,6 @@ While starting the game:
 
 V1.3
 HIGH SCORE RESET:
-
         if(!chooseMode.isHighway)
         {
             SpawnObstacle();
@@ -48,4 +47,5 @@ Restart and Main menu button on pause:
         PauseOrPlay();
         gameManager.Menu();
     }
+
 
