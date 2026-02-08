@@ -1,4 +1,4 @@
-V1.2
+V1.1
 CHOOSE MODE:
     void StartHighway()
     {
@@ -15,7 +15,7 @@ While starting the game:
 
 
 
-V1.3
+V1.2
 HIGH SCORE RESET:
 
         if(!chooseMode.isHighway)
@@ -48,4 +48,5 @@ Restart and Main menu button on pause:
         PauseOrPlay();
         gameManager.Menu();
     }
+
 
