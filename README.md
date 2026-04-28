@@ -1,4 +1,5 @@
-© 2025 Direct the Plane. All Rights Reserved.
-Play the game:
-  Itch: https://aatndev.itch.io/direct-the-plane
-  Unity Play: https://aatndev.itch.io/direct-the-plane
+© 2025-26 Direct the Plane. All Rights Reserved.
+
+Play the game: 
+<br>&emsp;Itch: https://aatndev.itch.io/direct-the-plane
+<br>&emsp;Unity Play: https://aatndev.itch.io/direct-the-plane
